@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 23px;
+}
+
+#app{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+header{
+  width: 60%;
+  height: 20%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header>a{
+  outline: none;
+  text-decoration: none;
+  color: #2a2438;
+}
+
+.logo>img{
+  width: 50px;
+}
+
+.container{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
